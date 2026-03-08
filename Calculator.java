@@ -1,9 +1,9 @@
 public class Calculator {
-    // Calculeaza suma a doua numere
-	private static final int BONUS = 2;
+	private static final int BONUS = 5; // refactor + fix
 	
     public int aduna(int a, int b) {
         return a + b + BONUS;
+
     }
 
     public static void main(String[] args) {
